@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#home h1 {
+    color: #4CAF50;
+}
+
+#products .product-form {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#products .product-form input {
+    height: 25px;
+    width: 16%;
+    padding: 0 3px;
+}
+
+#add-product {
+    background-color: #4CAF50;
+    border-radius: 8px;
+    width: 15%;
+    height: 30px;
+}
+
+#products #product-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Modal Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Black with opacity */
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.modal-content input {
+    height: 30px;
+    width: 50%;
+    padding: 0 3px;
+    margin: 2% 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+#save-edit {
+    background-color: #4CAF50;
+    border-radius: 8px;
+    width: 15%;
+    height: 30px;
+}
+
+#cancel-edit {
+    background-color: #4CAF50;
+    border-radius: 8px;
+    width: 15%;
+    height: 30px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header>
+    <div class="header">
+        <h1>Welcome to Our Clothing Store</h1>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#" id="contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="section">
+    <div>
+        <h1>Find Your Style</h1>
+        <p>Explore the latest fashion trends and timeless designs.</p>
+    </div>
+
+    <img src="https://maison-decor.vn/upload/products_image/cici-clothes-shop-products-image-280-1602044693-79N2D.jpg" style="width: 40%" alt="Clothing Store Image">
+</section>
+
+<section id="products" class="section">
+    <h2>Our Products</h2>
+    <div class="product-form">
+        <input type="text" id="product-name" placeholder="Product Name">
+        <input type="text" id="product-image" placeholder="Product Image URL">
+        <button id="add-product">Add Product</button>
+    </div>
+    <div id="product-list">
+        <!-- Sample Products -->
+    </div>
+</section>
+<!-- Modal for editing product -->
+<div id="edit-modal" class="modal">
+    <div class="modal-content">
+        <h3>Edit Product</h3>
+        <input type="text" id="edit-product-name">
+        <input type="text" id="edit-product-image">
+        <div style="display: flex; gap: 10px; width: 100%; justify-content: center;">
+            <button id="save-edit">Save</button>
+            <button id="cancel-edit">Cancel</button>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 Clothing Store. All rights reserved.</p>
+</footer>
+
+<script src="./scripts.js"></script>
+</body>
+</html>

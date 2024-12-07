@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1f4f;
+    /*color: #ffffff;*/
+    margin: 0;
+    padding: 0;
+}
+
+.profile-card {
+    max-width: 850px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #2b2f71;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #8f8df3;
+    margin-bottom: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.left-column {
+    flex: 1;
+    max-width: 300px;
+}
+
+.profile-header-left {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 5px;
+}
+
+.image-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 70%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.details {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.details li {
+    display: grid;
+    grid-template-columns: 120px 1fr; /* Cột đầu rộng 150px, cột thứ 2 chiếm phần còn lại */
+    gap: 10px; /* Khoảng cách giữa các cột */
+    margin-bottom: 0.5rem; /* Khoảng cách giữa các dòng */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.details .label {
+    font-weight: bold;
+    color: gray;
+    text-align: left; /* Căn trái nhãn */
+}
+
+.details .value {
+    text-align: left; /* Căn trái giá trị */
+    color: #1a1a1a; /* Tùy chỉnh màu cho giá trị */
+}
+
+.profile-body-left {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 5px;
+    margin-top: 5%;
+}
+
+blockquote {
+    font-style: italic;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.profile-footer-left {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 5px;
+    margin-top: 5%;
+}
+
+.personality h3 {
+    margin-top: 1rem;
+    color: #a3a2d2;
+}
+
+.right-column {
+    flex: 2;
+}
+
+.profile-one-right {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+.profile-two-right {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin-top: 2%;
+}
+
+.profile-three-right {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin-top: 2%;
+}
+
+.profile-four-right {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin-top: 2%;
+}
+
+.profile-five-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.profile-six-right {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 5px 10px;
+    width: 45%;
+}
+
+.profile-seven-right {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 5px 10px;
+    width: 45%;
+}
+
+li::marker {
+    color: #4442d7;
+}
+
+.bio, .core-needs, .frustrations, .brands, .payment, .platform {
+    margin-bottom: 1.0rem;
+}
+
+h3 {
+    color: #8f8df3;
+    margin: 0.5rem;
+}
+
+.brand-logos {
+    display: flex; /* Sử dụng Flexbox để xếp ảnh ngang hàng */
+    justify-content: space-around; /* Khoảng cách đều giữa các ảnh */
+    align-items: center; /* Căn giữa ảnh theo chiều dọc */
+    gap: 10px; /* Khoảng cách giữa các ảnh */
+}
+
+.brand-logos img {
+    width: 80px; /* Đặt chiều rộng cố định */
+    height: 80px; /* Đặt chiều cao cố định */
+    object-fit: cover; /* Đảm bảo ảnh được cắt vừa khung */
+    border-radius: 10px; /* (Tùy chọn) Làm bo góc ảnh, nếu cần */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* (Tùy chọn) Thêm hiệu ứng đổ bóng */
+}
+
+.payment img {
+    width: 60px; /* Đặt chiều rộng cố định */
+    height: 60px; /* Đặt chiều cao cố định */
+    object-fit: cover; /* Đảm bảo ảnh được cắt vừa khung */
+    border-radius: 10px; /* (Tùy chọn) Làm bo góc ảnh, nếu cần */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* (Tùy chọn) Thêm hiệu ứng đổ bóng */
+}
+
+.platform img {
+    width: 60px; /* Đặt chiều rộng cố định */
+    height: 60px; /* Đặt chiều cao cố định */
+    object-fit: cover; /* Đảm bảo ảnh được cắt vừa khung */
+    border-radius: 10px; /* (Tùy chọn) Làm bo góc ảnh, nếu cần */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* (Tùy chọn) Thêm hiệu ứng đổ bóng */
+}
